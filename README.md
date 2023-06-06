@@ -40,3 +40,18 @@ Cons:
 Additional layer of complexity: Azure API Management introduces an additional layer in the architecture, which may add some complexity to the solution.
 Cost considerations: Azure API Management is a paid service, and costs can increase with increased API traffic and usage.
 Learning curve: Configuring and managing Azure API Management may require some learning and understanding of its features and capabilities.
+
+
+
+
+
+
+
+
+
+
+# URL Azure
+
+To cater to the client's requirement of having a single base URL for both the student service and class timetable service, an effective approach would be to use Azure API Management.
+
+Azure API Management allows you to create an API gateway that acts as a single entry point for multiple backend services. It acts as a reverse proxy, enabling you to expose multiple services under a single base URL. With API Management, you can define APIs, configure policies, manage access control, and provide a unified interface for external content providers.
